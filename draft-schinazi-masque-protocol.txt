@@ -4,12 +4,12 @@
 
 Network Working Group                                        D. Schinazi
 Internet-Draft                                                Google LLC
-Intended status: Experimental                              4 August 2020
-Expires: 5 February 2021
+Intended status: Experimental                            14 October 2020
+Expires: 17 April 2021
 
 
                           The MASQUE Protocol
-                 draft-schinazi-masque-protocol-latest
+                     draft-schinazi-masque-protocol
 
 Abstract
 
@@ -40,7 +40,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 5 February 2021.
+   This Internet-Draft will expire on 17 April 2021.
 
 Copyright Notice
 
@@ -53,9 +53,9 @@ Copyright Notice
 
 
 
-Schinazi                 Expires 5 February 2021                [Page 1]
+Schinazi                  Expires 17 April 2021                 [Page 1]
 
-Internet-Draft                   MASQUE                      August 2020
+Internet-Draft                   MASQUE                     October 2020
 
 
    Please review these documents carefully, as they describe your rights
@@ -109,9 +109,9 @@ Table of Contents
 
 
 
-Schinazi                 Expires 5 February 2021                [Page 2]
+Schinazi                  Expires 17 April 2021                 [Page 2]
 
-Internet-Draft                   MASQUE                      August 2020
+Internet-Draft                   MASQUE                     October 2020
 
 
    MASQUE Negotiation is performed using HTTP mechanisms, but MASQUE
@@ -165,9 +165,9 @@ Internet-Draft                   MASQUE                      August 2020
 
 
 
-Schinazi                 Expires 5 February 2021                [Page 3]
+Schinazi                  Expires 17 April 2021                 [Page 3]
 
-Internet-Draft                   MASQUE                      August 2020
+Internet-Draft                   MASQUE                     October 2020
 
 
     0                   1                   2                   3
@@ -221,9 +221,9 @@ Internet-Draft                   MASQUE                      August 2020
 
 
 
-Schinazi                 Expires 5 February 2021                [Page 4]
+Schinazi                  Expires 17 April 2021                 [Page 4]
 
-Internet-Draft                   MASQUE                      August 2020
+Internet-Draft                   MASQUE                     October 2020
 
 
 3.2.1.  DNS over HTTPS Negotiation
@@ -277,9 +277,9 @@ Internet-Draft                   MASQUE                      August 2020
 
 
 
-Schinazi                 Expires 5 February 2021                [Page 5]
+Schinazi                  Expires 17 April 2021                 [Page 5]
 
-Internet-Draft                   MASQUE                      August 2020
+Internet-Draft                   MASQUE                     October 2020
 
 
    The DATAGRAM frame [DGRAM] format below allows both endpoints to
@@ -333,9 +333,9 @@ Internet-Draft                   MASQUE                      August 2020
 
 
 
-Schinazi                 Expires 5 February 2021                [Page 6]
+Schinazi                  Expires 17 April 2021                 [Page 6]
 
-Internet-Draft                   MASQUE                      August 2020
+Internet-Draft                   MASQUE                     October 2020
 
 
     0                   1                   2                   3
@@ -389,9 +389,9 @@ Internet-Draft                   MASQUE                      August 2020
 
 
 
-Schinazi                 Expires 5 February 2021                [Page 7]
+Schinazi                  Expires 17 April 2021                 [Page 7]
 
-Internet-Draft                   MASQUE                      August 2020
+Internet-Draft                   MASQUE                     October 2020
 
 
    Server Connection ID:  The server connection ID associated with this
@@ -445,9 +445,9 @@ Internet-Draft                   MASQUE                      August 2020
 
 
 
-Schinazi                 Expires 5 February 2021                [Page 8]
+Schinazi                  Expires 17 April 2021                 [Page 8]
 
-Internet-Draft                   MASQUE                      August 2020
+Internet-Draft                   MASQUE                     October 2020
 
 
       starting after the last byte of last connection ID field.
@@ -501,9 +501,9 @@ Internet-Draft                   MASQUE                      August 2020
 
 
 
-Schinazi                 Expires 5 February 2021                [Page 9]
+Schinazi                  Expires 17 April 2021                 [Page 9]
 
-Internet-Draft                   MASQUE                      August 2020
+Internet-Draft                   MASQUE                     October 2020
 
 
     0                   1                   2                   3
@@ -557,9 +557,9 @@ Internet-Draft                   MASQUE                      August 2020
 
 
 
-Schinazi                 Expires 5 February 2021               [Page 10]
+Schinazi                  Expires 17 April 2021                [Page 10]
 
-Internet-Draft                   MASQUE                      August 2020
+Internet-Draft                   MASQUE                     October 2020
 
 
                    Figure 6: Validated UDP Proxy Datagram
@@ -613,9 +613,9 @@ Internet-Draft                   MASQUE                      August 2020
 
 
 
-Schinazi                 Expires 5 February 2021               [Page 11]
+Schinazi                  Expires 17 April 2021                [Page 11]
 
-Internet-Draft                   MASQUE                      August 2020
+Internet-Draft                   MASQUE                     October 2020
 
 
    IP Packet:  The full IP packet, starting from the IP Version field.
@@ -669,9 +669,9 @@ Internet-Draft                   MASQUE                      August 2020
 
 
 
-Schinazi                 Expires 5 February 2021               [Page 12]
+Schinazi                  Expires 17 April 2021                [Page 12]
 
-Internet-Draft                   MASQUE                      August 2020
+Internet-Draft                   MASQUE                     October 2020
 
 
                 +=======+================+===============+
@@ -697,9 +697,9 @@ Internet-Draft                   MASQUE                      August 2020
 
    [DGRAM]    Pauly, T., Kinnear, E., and D. Schinazi, "An Unreliable
               Datagram Extension to QUIC", Work in Progress, Internet-
-              Draft, draft-ietf-quic-datagram-00, 26 February 2020,
+              Draft, draft-ietf-quic-datagram-01, 24 August 2020,
               <http://www.ietf.org/internet-drafts/draft-ietf-quic-
-              datagram-00.txt>.
+              datagram-01.txt>.
 
    [DOH]      Hoffman, P. and P. McManus, "DNS Queries over HTTPS
               (DoH)", RFC 8484, DOI 10.17487/RFC8484, October 2018,
@@ -707,27 +707,27 @@ Internet-Draft                   MASQUE                      August 2020
 
    [H3DGRAM]  Schinazi, D., "Using QUIC Datagrams with HTTP/3", Work in
               Progress, Internet-Draft, draft-schinazi-quic-h3-datagram-
-              04, 16 April 2020, <http://www.ietf.org/internet-drafts/
-              draft-schinazi-quic-h3-datagram-04.txt>.
+              05, 12 October 2020, <http://www.ietf.org/internet-drafts/
+              draft-schinazi-quic-h3-datagram-05.txt>.
 
    [HTTP3]    Bishop, M., "Hypertext Transfer Protocol Version 3
               (HTTP/3)", Work in Progress, Internet-Draft, draft-ietf-
-              quic-http-29, 9 June 2020, <http://www.ietf.org/internet-
-              drafts/draft-ietf-quic-http-29.txt>.
+              quic-http-31, 24 September 2020, <http://www.ietf.org/
+              internet-drafts/draft-ietf-quic-http-31.txt>.
 
    [QUIC]     Iyengar, J. and M. Thomson, "QUIC: A UDP-Based Multiplexed
               and Secure Transport", Work in Progress, Internet-Draft,
-              draft-ietf-quic-transport-29, 9 June 2020,
+              draft-ietf-quic-transport-31, 24 September 2020,
               <http://www.ietf.org/internet-drafts/draft-ietf-quic-
-              transport-29.txt>.
+              transport-31.txt>.
 
 
 
 
 
-Schinazi                 Expires 5 February 2021               [Page 13]
+Schinazi                  Expires 17 April 2021                [Page 13]
 
-Internet-Draft                   MASQUE                      August 2020
+Internet-Draft                   MASQUE                     October 2020
 
 
    [RFC2119]  Bradner, S., "Key words for use in RFCs to Indicate
@@ -781,4 +781,4 @@ Author's Address
 
 
 
-Schinazi                 Expires 5 February 2021               [Page 14]
+Schinazi                  Expires 17 April 2021                [Page 14]

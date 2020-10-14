@@ -4,12 +4,12 @@
 
 Network Working Group                                        D. Schinazi
 Internet-Draft                                                Google LLC
-Intended status: Experimental                              4 August 2020
-Expires: 5 February 2021
+Intended status: Experimental                            14 October 2020
+Expires: 17 April 2021
 
 
                            MASQUE Obfuscation
-                draft-schinazi-masque-obfuscation-latest
+                   draft-schinazi-masque-obfuscation
 
 Abstract
 
@@ -47,15 +47,15 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 5 February 2021.
+   This Internet-Draft will expire on 17 April 2021.
 
 
 
 
 
-Schinazi                 Expires 5 February 2021                [Page 1]
+Schinazi                  Expires 17 April 2021                 [Page 1]
 
-Internet-Draft             MASQUE Obfuscation                August 2020
+Internet-Draft             MASQUE Obfuscation               October 2020
 
 
 Copyright Notice
@@ -109,9 +109,9 @@ Table of Contents
 
 
 
-Schinazi                 Expires 5 February 2021                [Page 2]
+Schinazi                  Expires 17 April 2021                 [Page 2]
 
-Internet-Draft             MASQUE Obfuscation                August 2020
+Internet-Draft             MASQUE Obfuscation               October 2020
 
 
 1.  Introduction
@@ -165,9 +165,9 @@ Internet-Draft             MASQUE Obfuscation                August 2020
 
 
 
-Schinazi                 Expires 5 February 2021                [Page 3]
+Schinazi                  Expires 17 April 2021                 [Page 3]
 
-Internet-Draft             MASQUE Obfuscation                August 2020
+Internet-Draft             MASQUE Obfuscation               October 2020
 
 
 2.2.  Protection from Web Servers
@@ -221,9 +221,9 @@ Internet-Draft             MASQUE Obfuscation                August 2020
 
 
 
-Schinazi                 Expires 5 February 2021                [Page 4]
+Schinazi                  Expires 17 April 2021                 [Page 4]
 
-Internet-Draft             MASQUE Obfuscation                August 2020
+Internet-Draft             MASQUE Obfuscation               October 2020
 
 
 3.3.  Fallback to HTTP/2 over TLS over TCP
@@ -277,9 +277,9 @@ Internet-Draft             MASQUE Obfuscation                August 2020
 
 
 
-Schinazi                 Expires 5 February 2021                [Page 5]
+Schinazi                  Expires 17 April 2021                 [Page 5]
 
-Internet-Draft             MASQUE Obfuscation                August 2020
+Internet-Draft             MASQUE Obfuscation               October 2020
 
 
 7.  Operation over HTTP/2
@@ -333,9 +333,9 @@ Internet-Draft             MASQUE Obfuscation                August 2020
 
 
 
-Schinazi                 Expires 5 February 2021                [Page 6]
+Schinazi                  Expires 17 April 2021                 [Page 6]
 
-Internet-Draft             MASQUE Obfuscation                August 2020
+Internet-Draft             MASQUE Obfuscation               October 2020
 
 
    When multiple MASQUE Obfuscation servers are available, a client can
@@ -382,28 +382,28 @@ Internet-Draft             MASQUE Obfuscation                August 2020
 
    [HTTP3]    Bishop, M., "Hypertext Transfer Protocol Version 3
               (HTTP/3)", Work in Progress, Internet-Draft, draft-ietf-
-              quic-http-29, 9 June 2020, <http://www.ietf.org/internet-
-              drafts/draft-ietf-quic-http-29.txt>.
+              quic-http-31, 24 September 2020, <http://www.ietf.org/
+              internet-drafts/draft-ietf-quic-http-31.txt>.
 
 
 
 
 
-Schinazi                 Expires 5 February 2021                [Page 7]
+Schinazi                  Expires 17 April 2021                 [Page 7]
 
-Internet-Draft             MASQUE Obfuscation                August 2020
+Internet-Draft             MASQUE Obfuscation               October 2020
 
 
    [MASQUE]   Schinazi, D., "The MASQUE Protocol", Work in Progress,
-              Internet-Draft, draft-schinazi-masque-protocol-01, 12
-              March 2020, <http://www.ietf.org/internet-drafts/draft-
-              schinazi-masque-protocol-01.txt>.
+              Internet-Draft, draft-schinazi-masque-protocol-02, 9
+              September 2020, <http://www.ietf.org/internet-drafts/
+              draft-schinazi-masque-protocol-02.txt>.
 
    [QUIC]     Iyengar, J. and M. Thomson, "QUIC: A UDP-Based Multiplexed
               and Secure Transport", Work in Progress, Internet-Draft,
-              draft-ietf-quic-transport-29, 9 June 2020,
+              draft-ietf-quic-transport-31, 24 September 2020,
               <http://www.ietf.org/internet-drafts/draft-ietf-quic-
-              transport-29.txt>.
+              transport-31.txt>.
 
    [RFC2119]  Bradner, S., "Key words for use in RFCs to Indicate
               Requirement Levels", BCP 14, RFC 2119,
@@ -421,9 +421,9 @@ Internet-Draft             MASQUE Obfuscation                August 2020
    [TRANSPORT-AUTH]
               Schinazi, D., "HTTP Transport Authentication", Work in
               Progress, Internet-Draft, draft-schinazi-httpbis-
-              transport-auth-03, 13 March 2020, <http://www.ietf.org/
+              transport-auth-04, 9 September 2020, <http://www.ietf.org/
               internet-drafts/draft-schinazi-httpbis-transport-auth-
-              03.txt>.
+              04.txt>.
 
 10.2.  Informative References
 
@@ -445,9 +445,9 @@ Internet-Draft             MASQUE Obfuscation                August 2020
 
 
 
-Schinazi                 Expires 5 February 2021                [Page 8]
+Schinazi                  Expires 17 April 2021                 [Page 8]
 
-Internet-Draft             MASQUE Obfuscation                August 2020
+Internet-Draft             MASQUE Obfuscation               October 2020
 
 
    [I-D.pardue-httpbis-http-network-tunnelling]
@@ -501,9 +501,9 @@ Acknowledgments
 
 
 
-Schinazi                 Expires 5 February 2021                [Page 9]
+Schinazi                  Expires 17 April 2021                 [Page 9]
 
-Internet-Draft             MASQUE Obfuscation                August 2020
+Internet-Draft             MASQUE Obfuscation               October 2020
 
 
 Design Justifications
@@ -557,9 +557,9 @@ Design Justifications
 
 
 
-Schinazi                 Expires 5 February 2021               [Page 10]
+Schinazi                  Expires 17 April 2021                [Page 10]
 
-Internet-Draft             MASQUE Obfuscation                August 2020
+Internet-Draft             MASQUE Obfuscation               October 2020
 
 
    MASQUE proposes a new client authentication method (as opposed to
@@ -613,4 +613,4 @@ Author's Address
 
 
 
-Schinazi                 Expires 5 February 2021               [Page 11]
+Schinazi                  Expires 17 April 2021                [Page 11]

@@ -4,12 +4,12 @@
 
 Network Working Group                                        D. Schinazi
 Internet-Draft                                                Google LLC
-Intended status: Experimental                              4 August 2020
-Expires: 5 February 2021
+Intended status: Experimental                            14 October 2020
+Expires: 17 April 2021
 
 
                      HTTP Transport Authentication
-              draft-schinazi-httpbis-transport-auth-latest
+                 draft-schinazi-httpbis-transport-auth
 
 Abstract
 
@@ -37,7 +37,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 5 February 2021.
+   This Internet-Draft will expire on 17 April 2021.
 
 Copyright Notice
 
@@ -53,9 +53,9 @@ Copyright Notice
 
 
 
-Schinazi                 Expires 5 February 2021                [Page 1]
+Schinazi                  Expires 17 April 2021                 [Page 1]
 
-Internet-Draft        HTTP Transport Authentication          August 2020
+Internet-Draft        HTTP Transport Authentication         October 2020
 
 
    This document is subject to BCP 78 and the IETF Trust's Legal
@@ -109,9 +109,9 @@ Table of Contents
 
 
 
-Schinazi                 Expires 5 February 2021                [Page 2]
+Schinazi                  Expires 17 April 2021                 [Page 2]
 
-Internet-Draft        HTTP Transport Authentication          August 2020
+Internet-Draft        HTTP Transport Authentication         October 2020
 
 
    as the DATAGRAM frame [DGRAM] enable new uses of HTTP such as
@@ -165,9 +165,9 @@ Internet-Draft        HTTP Transport Authentication          August 2020
 
 
 
-Schinazi                 Expires 5 February 2021                [Page 3]
+Schinazi                  Expires 17 April 2021                 [Page 3]
 
-Internet-Draft        HTTP Transport Authentication          August 2020
+Internet-Draft        HTTP Transport Authentication         October 2020
 
 
 3.  Header Field Definition
@@ -221,9 +221,9 @@ Internet-Draft        HTTP Transport Authentication          August 2020
 
 
 
-Schinazi                 Expires 5 February 2021                [Page 4]
+Schinazi                  Expires 17 April 2021                 [Page 4]
 
-Internet-Draft        HTTP Transport Authentication          August 2020
+Internet-Draft        HTTP Transport Authentication         October 2020
 
 
 4.1.  Signature
@@ -277,9 +277,9 @@ Internet-Draft        HTTP Transport Authentication          August 2020
 
 
 
-Schinazi                 Expires 5 February 2021                [Page 5]
+Schinazi                  Expires 17 April 2021                 [Page 5]
 
-Internet-Draft        HTTP Transport Authentication          August 2020
+Internet-Draft        HTTP Transport Authentication         October 2020
 
 
 6.  Security Considerations
@@ -333,9 +333,9 @@ Internet-Draft        HTTP Transport Authentication          August 2020
 
 
 
-Schinazi                 Expires 5 February 2021                [Page 6]
+Schinazi                  Expires 17 April 2021                 [Page 6]
 
-Internet-Draft        HTTP Transport Authentication          August 2020
+Internet-Draft        HTTP Transport Authentication         October 2020
 
 
      +--------------------------------------------------+
@@ -389,9 +389,9 @@ Internet-Draft        HTTP Transport Authentication          August 2020
 
 
 
-Schinazi                 Expires 5 February 2021                [Page 7]
+Schinazi                  Expires 17 April 2021                 [Page 7]
 
-Internet-Draft        HTTP Transport Authentication          August 2020
+Internet-Draft        HTTP Transport Authentication         October 2020
 
 
    [RFC7235]  Fielding, R., Ed. and J. Reschke, Ed., "Hypertext Transfer
@@ -415,39 +415,39 @@ Internet-Draft        HTTP Transport Authentication          August 2020
 
    [DGRAM]    Pauly, T., Kinnear, E., and D. Schinazi, "An Unreliable
               Datagram Extension to QUIC", Work in Progress, Internet-
-              Draft, draft-ietf-quic-datagram-00, 26 February 2020,
+              Draft, draft-ietf-quic-datagram-01, 24 August 2020,
               <http://www.ietf.org/internet-drafts/draft-ietf-quic-
-              datagram-00.txt>.
+              datagram-01.txt>.
 
    [HTTP3]    Bishop, M., "Hypertext Transfer Protocol Version 3
               (HTTP/3)", Work in Progress, Internet-Draft, draft-ietf-
-              quic-http-29, 9 June 2020, <http://www.ietf.org/internet-
-              drafts/draft-ietf-quic-http-29.txt>.
+              quic-http-31, 24 September 2020, <http://www.ietf.org/
+              internet-drafts/draft-ietf-quic-http-31.txt>.
 
    [MASQUE]   Schinazi, D., "The MASQUE Protocol", Work in Progress,
-              Internet-Draft, draft-schinazi-masque-protocol-01, 12
-              March 2020, <http://www.ietf.org/internet-drafts/draft-
-              schinazi-masque-protocol-01.txt>.
+              Internet-Draft, draft-schinazi-masque-protocol-02, 9
+              September 2020, <http://www.ietf.org/internet-drafts/
+              draft-schinazi-masque-protocol-02.txt>.
 
    [QUIC]     Iyengar, J. and M. Thomson, "QUIC: A UDP-Based Multiplexed
               and Secure Transport", Work in Progress, Internet-Draft,
-              draft-ietf-quic-transport-29, 9 June 2020,
+              draft-ietf-quic-transport-31, 24 September 2020,
               <http://www.ietf.org/internet-drafts/draft-ietf-quic-
-              transport-29.txt>.
+              transport-31.txt>.
 
    [QUIC-TLS] Thomson, M. and S. Turner, "Using TLS to Secure QUIC",
-              Work in Progress, Internet-Draft, draft-ietf-quic-tls-29,
-              9 June 2020, <http://www.ietf.org/internet-drafts/draft-
-              ietf-quic-tls-29.txt>.
+              Work in Progress, Internet-Draft, draft-ietf-quic-tls-31,
+              24 September 2020, <http://www.ietf.org/internet-drafts/
+              draft-ietf-quic-tls-31.txt>.
 
 
 
 
 
 
-Schinazi                 Expires 5 February 2021                [Page 8]
+Schinazi                  Expires 17 April 2021                 [Page 8]
 
-Internet-Draft        HTTP Transport Authentication          August 2020
+Internet-Draft        HTTP Transport Authentication         October 2020
 
 
    [RFC6234]  Eastlake 3rd, D. and T. Hansen, "US Secure Hash Algorithms
@@ -501,4 +501,4 @@ Author's Address
 
 
 
-Schinazi                 Expires 5 February 2021                [Page 9]
+Schinazi                  Expires 17 April 2021                 [Page 9]
